@@ -28,18 +28,34 @@ const eyewearshop = (glasses) => glasses;
 
 eyewearshop("TomFord");
 
-
+// Working on reusable code
 class Dog {
-    constructor(a, b, c) {
+    constructor(speak, action, tired) {
 
-        this.a = a;
-        this.b = b;
-        this.c = c;
+        this.speak = speak;
+        this.action = action;
+        this.tired = tired;
 
     }
     makeSound() {
-        const one = this.a;
-        return one;
+        const trickOne = this.speak;
+
+        console.log(trickOne);
+
+    }
+
+    makeRun() {
+        const trickTwo = this.action;
+
+        console.log(trickTwo);
+
+    }
+
+    makeRest() {
+        const trickThree = this.tired;
+
+        console.log(trickThree);
+
 
     }
 
@@ -47,3 +63,7 @@ class Dog {
 const Max = new Dog("woof", "run", "walk");
 
 Max.makeSound();
+
+Max.makeRun();
+
+Max.makeRest();
