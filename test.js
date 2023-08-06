@@ -19,7 +19,7 @@ const working = (letsgo) => {
     console.log(letsgo);
 }
 
-working("On god we will become an engineer");
+working("Function is working");
 
 
 const eyewearshop = (glasses) => glasses;
@@ -27,6 +27,38 @@ const eyewearshop = (glasses) => glasses;
 
 
 eyewearshop("TomFord");
+
+
+class Cat {
+
+    constructor(move, rest, trick) {
+
+        this.move = move;
+        this.rest = rest;
+        this.trick = trick;
+
+    }
+
+    makemove() {
+
+        console.log('Meow');
+
+    }
+
+    makesleep() {
+
+        console.log("I am sleepy");
+    }
+
+}
+
+const Two = new Cat("sound", "tired", "sneak");
+
+
+Two.makesleep();
+Two.makemove();
+
+
 
 // Working on reusable code
 class Dog {
