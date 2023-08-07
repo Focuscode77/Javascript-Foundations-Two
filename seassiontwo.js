@@ -34,3 +34,28 @@ const Load = "James";
 
 console.log(Load.indexOf("m"));
 
+debugger
+const costOfApple = 3;
+const costOfAppleToBuy = 5;
+
+const total = costOfApple * costOfAppleToBuy;
+
+console.log(total);
+
+const playingWithNum = 10;
+const numbersTwo = 5;
+
+console.log(playingWithNum + numbersTwo);
+console.log(playingWithNum - numbersTwo);
+console.log(playingWithNum * numbersTwo);
+console.log(playingWithNum ** numbersTwo);
+console.log(playingWithNum / numbersTwo);
+
+// Incrementing Lesson
+
+let a = 3
+
+console.log("before increment :", a);
+a++;
+
+console.log("after increment :", a);
