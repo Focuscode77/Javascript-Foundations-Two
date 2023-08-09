@@ -59,3 +59,36 @@ console.log("before increment :", a);
 a++;
 
 console.log("after increment :", a);
+
+// Array
+
+const nameOfGame = ["amoredcore", "eldenring", 'final fantasy'];
+
+console.log(nameOfGame[0]);
+console.log(nameOfGame.indexOf("amoredcore"));
+console.log(nameOfGame.length);
+
+nameOfGame.push('FRAM');
+
+console.log(nameOfGame.length);
+
+
+//anonymous function example
+
+const mySandwitch = ["Tomato", "Cucumber", "Lettece", "Meat", "Chesse"]
+//This is an example because we have not named the filter anything it takes in a function as a prameter
+
+const filterArray = mySandwitch.filter((data) => {
+    const indexofA = data.indexOf("T");
+
+    const hasTheLetterA = indexofA !== -1;
+    return indexofA;
+});
+const hungry = mySandwitch.find((data) => {
+
+    return data.length > 4;
+})
+
+console.log(hungry);
+
+//console.log(filterArray);
