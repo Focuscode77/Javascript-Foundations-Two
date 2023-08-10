@@ -69,4 +69,43 @@ console.log(calculator.sub(5, 5));
 console.log(calculator.multiply(5, 5));
 
 
+// Object
+
+const loveSongs = {
+
+    myFavorite: "SZA is my favorite",
+
+    playSong: (a) => {
+
+        return "Play sza Snooze";
+
+    }
+
+}
+
+console.log(loveSongs.playSong());
+
+// Going over arry
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+for (i = 0; i < arr.length; i++) {
+
+    console.log(arr[i]);
+
+
+}
+
+
+//for in example
+
+for (let key in calculator) {
+
+    console.log(key);
+    console.log(calculator[key]);
+
+}
+
+
+//for each irreates of an arry
 
